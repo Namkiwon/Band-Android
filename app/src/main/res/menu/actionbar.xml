@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    >
+
+
+
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@drawable/menuthree"
+        android:orderInCategory="0"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/home_r"
+                android:title="친구목록 동기화"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/resetGroup"
+                android:title="그룹목록 동기화"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/changeMyphoto"
+                android:title="내프로필 관리"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

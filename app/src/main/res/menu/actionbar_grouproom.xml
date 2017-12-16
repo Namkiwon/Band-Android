@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    >
+
+
+
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@drawable/menuthree"
+        android:orderInCategory="0"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/writecontents"
+                android:title="글 작성하기"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/lookmembers"
+                android:title="멤버 보기"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/invite"
+                android:title="초대하기"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

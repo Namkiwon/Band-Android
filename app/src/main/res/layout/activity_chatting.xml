@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:id="@+id/chattingLinearLayout">
+
+    <ListView
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:background="#00BBBB"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        ></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:maxHeight="105dp"
+        android:weightSum="6"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+    >
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="105dp"
+            android:layout_weight="6"
+            android:isScrollContainer="true"
+            android:inputType="textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/sendmessage"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="전송"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "984377960801",
+    "firebase_url": "https://band-a73ed.firebaseio.com",
+    "project_id": "band-a73ed",
+    "storage_bucket": "band-a73ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984377960801:android:62f24df63455ffe5",
+        "android_client_info": {
+          "package_name": "com.example.namgiwon.band"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984377960801-d2i4imed6uc3uqk6d178hiqik0p4ceu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Kvcwt97fmCnNaPDuZ8mWChSPvu9nCOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
